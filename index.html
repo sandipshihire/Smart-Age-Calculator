@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Smart Age Calculator</title>
+<link rel="stylesheet" href="style.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Smart Age Calculator</h1>
+
+    <div class="toggle-container">
+        <span>🌞</span>
+        <label class="switch">
+            <input type="checkbox" id="darkToggle">
+            <span class="slider round"></span>
+        </label>
+        <span>🌙</span>
+    </div>
+
+    <div class="card">
+        <div class="dob-container">
+            <select id="day"></select>
+            <select id="month"></select>
+            <select id="year"></select>
+        </div>
+        <button class="btn" onclick="calculateAge()">Calculate Age</button>
+    </div>
+
+    <div class="result-card" id="result"></div>
+
+    <button class="btn pdf" onclick="downloadPDF()">Download PDF</button>
+    <button class="btn share" onclick="shareWhatsApp()">Share WhatsApp</button>
+    <button class="btn copy" onclick="copyLink()">Copy Link</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
