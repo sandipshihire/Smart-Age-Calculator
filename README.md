@@ -1,30 +1,82 @@
-📌 Smart Age Calculator
+# 📌 Smart Age Calculator
 
-A Smart Age Calculator Web App that instantly calculates a user’s exact age in years, months, and days based on their date of birth. The app is fast, responsive, and user-friendly with a clean modern UI.
+A Smart Age Calculator Web App that instantly calculates a user’s exact age in years, months, and days based on their date of birth. The app is simple, fast, responsive, and easy to use.
 
-🚀 Live Demo
+---
 
-🔗 Live Website:
-👉 https://your-live-demo-link.netlify.app
+## 🚀 Live Demo
 
-(Replace this link with your actual deployed URL)
+🔗 Live Website:  
+[https://your-live-demo-link.netlify.app](https://instant-age-finder.netlify.app/)
 
-✨ Features
+(Replace this link with your actual deployed link)
 
-📅 Easy Date of Birth input
+---
 
-⏱️ Instant age calculation
+## ✨ Features
 
-🧮 Displays age in Years, Months & Days
+- Easy Date of Birth input  
+- Instant age calculation  
+- Shows age in Years, Months, and Days  
+- Mobile-friendly and responsive design  
+- Clean and simple user interface  
+- Fast performance (no reload)
 
-📱 Fully responsive (Mobile & Desktop friendly)
+---
 
-🎨 Clean and simple UI
+## 🛠️ Tech Stack
 
-⚡ Fast performance (no page reload)
+- HTML5  
+- CSS3  
+- JavaScript  
 
+---
 
+## 📂 Project Structure
 
-CSS3 – Styling & responsiveness
+smart-age-calculator/
+│
+├── index.html  
+├── style.css  
+├── script.js  
+└── README.md  
 
-JavaScript – Age calculation logic
+---
+
+## 🧠 How It Works
+
+1. User selects their Date of Birth  
+2. JavaScript calculates the difference between today’s date and DOB  
+3. Age is displayed instantly in years, months, and days  
+
+---
+
+## 📦 How to Run Locally
+
+1. Clone the repository  
+git clone https://github.com/your-username/smart-age-calculator.git  
+
+2. Open index.html in any browser  
+
+---
+
+## 🌐 Deployment
+
+This project can be deployed for free using:
+- Netlify    
+- GitHub Pages  
+
+---
+
+## 👨‍💻 Developer
+
+Name: Sandip Shihire  
+GitHub: https://github.com/sandipshihire  
+LinkedIn: https://www.linkedin.com/in/sandip-shihire-3989b5234/  
+Email: sandipshihire421@gmail.com  
+
+---
+
+## ⭐ Support
+
+If you like this project, please give it a star on GitHub and share it on LinkedIn.
